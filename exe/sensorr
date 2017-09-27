@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+# vim:ft=ruby
+
+require 'sensorr'
+Sensorr::CLI.start(ARGV)

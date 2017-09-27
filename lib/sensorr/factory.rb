@@ -9,7 +9,11 @@ module Sensorr
       end
     end
 
-    Channel = Struct.new(:name, :value)
+    Channel = Struct.new(:name, :value) do
+      def to_s
+        name + ": " + value
+      end
+    end
 
     class << self
       def from_raw_sensors_output(sensors_output)

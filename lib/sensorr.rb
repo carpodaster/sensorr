@@ -1,4 +1,5 @@
 require "sensorr/version"
+require "sensorr/cli"
 require "sensorr/factory"
 require "thread"
 
