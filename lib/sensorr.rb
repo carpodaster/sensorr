@@ -1,5 +1,6 @@
 require "sensorr/version"
+require "sensorr/factory"
+require "thread"
 
 module Sensorr
-  # Your code goes here...
 end
